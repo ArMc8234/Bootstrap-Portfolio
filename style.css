@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(assets/images/background-blur-blurred-255379.jpg); 
+    /* Photo by Miguel Á. Padriñán from Pexels */
+     }
+
+#header  {
+    background: #ffff;
+    border-bottom: 2px solid #dddd;
+    margin-bottom: 20px;
+}
+
+#MyName {
+    background-color: #4aaaa5;
+    color: #ffff;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#NavMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+}
+
+#MainContent {
+    background: #ffff;
+    border-bottom: 2px solid #dddd;
+}
+
+
+#sectionHeader {
+    text-align: left;
+    color: #4aaaa5;
+    font-size: 20px;
+    border-bottom: 2px solid;
+    border-bottom-color: #777777;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+#headshot{
+    float: left;
+    margin: 15px;
+}
+
+#footer {
+    padding: 20px;
+    /* width: 100%; */
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border-top: 8px solid;
+    border-top-color: #4aaaa5;
+    background-color: #777777;
+}
